@@ -2,7 +2,7 @@
   "scripts": {
     "build:css": "npx tailwindcss -i ./src/css/style.css -o ./dist/css/style.css",
     "build:copy": "copyfiles -u 1 \"src/**/*\" dist && rm -rf dist/css",
-    "build": "npm run build:css && npm run build:copy",
+    "build": "npm run build:copy && npm run build:css",
     "watch": "npx tailwindcss -i ./src/css/style.css -o ./dist/css/style.css --watch"
   },
   "devDependencies": {
