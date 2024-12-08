@@ -4,21 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        'ets-blue': '#007eb9',
-                        'ets-green': '#96c22f',
-                        'ets-darkblue': '#15325a'
-                    }
-                }
-            }
-        }
-    </script>
-    <title>404 Page not found &ndash; Enjoy the Show</title>
+    <link href="./css/style.css" rel="stylesheet">
+    <title>Enjoy the Show &ndash; Vincent van Kekerix</title>
 </head>
 
 <body class="text-white bg-gradient-to-r from-ets-blue to-ets-green">
@@ -29,14 +16,23 @@
 
         <main class="mt-12 flex-grow px-8 md:px-0 text-center md:text-left">
             <div class="grid gap-12 grid-cols-1 md:grid-cols-2 items-center">
-                <article class="md:leading-normal">
-                    <h1 class="text-4xl md:text-3xl">
-                        404 <span class="font-semibold">Page not found</span>
-                    </h1>
-                    <p class="text-xl md:text-xl mt-8">
-                        <a href="/" alt="Back to Home" class="font-semibold underline hover:no-underline">Back to Home</a>
+                <article class="text-lg md:text-3xl md:leading-normal">
+                    <p>
+                        Hi, I'm <span class="font-semibold">Vincent van Kekerix</span> – nice to meet you. 
+                        I'm a <span class="font-semibold">strategic manager and software developer</span>, 
+                        working in the fields of <span class="font-semibold">culture and creativity</span>. 
+                        Oh, and I also <a href="https://endeux.nl" class="font-semibold underline hover:no-underline" 
+                        target="_blank">import wines</a>. Always looking for new adventures, passionate about 
+                        getting things (back) on track. Based in Amsterdam, the Netherlands. Learn more about me on 
+                        <a href="https://www.linkedin.com/in/vincentvankekerix" class="font-semibold underline hover:no-underline" 
+                        target="_blank">my LinkedIn page</a>.
                     </p>
                 </article>
+
+                <div class="text-center">
+                    <img class="w-3/4 md:w-1/2 mx-auto" src="/assets/photo-vincent-van-kekerix.jpg" alt="Vincent van Kekerix">
+                    <small class="block mt-2">Photo: Olivier Wecxsteen</small>
+                </div>
             </div>
         </main>
 
