@@ -10,7 +10,7 @@ override: true
     <article class="text-lg md:text-3xl md:leading-normal">
         <p>
             Hi, I'm <span class="font-semibold">Vincent van Kekerix</span> – nice to meet you. 
-            I'm a <span class="font-semibold">strategic manager and software developer</span>, 
+            I'm a <span class="font-semibold">strategic manager</span>, 
             working in the fields of <span class="font-semibold">culture and creativity</span>. 
             Oh, and I also <a href="https://endeux.nl" class="font-semibold underline hover:no-underline" 
             target="_blank">import wines</a>. Always looking for new adventures, passionate about 

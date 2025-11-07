@@ -1,7 +1,7 @@
 <footer class="my-8 static bottom-0 text-center md:text-left">
     <div class="hidden md:block">
         <p>
-            Kazernestraat 7, 1018 CC Amsterdam &ndash; <span class="italic">Visits by appointment only</span>
+            Liendenhof 40, 1108 HA Amsterdam &ndash; <span class="italic">Visits by appointment only</span>
         </p>
         <p>
             <a href="mailto:vvk@enjoytheshow.nl" class="underline hover:no-underline" target="_blank">vvk@enjoytheshow.nl</a> | 
@@ -12,7 +12,7 @@
 
     <div class="md:hidden">
         <p class="px-4">
-            Kazernestraat 7, 1018 CC Amsterdam<br>
+            Liendenhof 40, 1108 HA Amsterdam<br>
             <span class="italic">Visits by appointment only</span>
         </p>
         <p class="px-4 mt-4">
